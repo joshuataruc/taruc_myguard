@@ -1,0 +1,13 @@
+.buttons-pdf, .buttons-csv, .buttons-excel, .buttons-print{
+   background: #00aeef !important;
+   color: white !important;
+   border-color:#00aeef !important;
+
+}
+.buttons-pdf:hover, .buttons-csv:hover, .buttons-excel:hover, .buttons-print	:hover{
+   background: #24a9db !important;
+   border-color: #24a9db !important;
+}
+.pagination{
+   justify-content: center !important;
+}

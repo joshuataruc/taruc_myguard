@@ -1,0 +1,53 @@
+
+.side {
+      height: 100vh;
+}
+
+.nav-pills .nav-link {
+      border-radius: 0px;
+      -webkit-transition: all .5s ease-in;
+      -moz-transition: all .5s ease-in;
+      -o-transition: all .5s ease-in;
+      -ms-transition: all .5s ease-in;
+      transition: all .5s ease-in;
+}
+
+.side .nav-pills .nav-link.active {
+      background-color: transparent;
+      opacity: 1;
+      color: #fff !important;
+      transform: scale(1.1);
+      -webkit-transition: all .7s ease-in;
+      -moz-transition: all .7s ease-in;
+      -o-transition: all .7s ease-in;
+      -ms-transition: all .7s ease-in;
+      transition: all .7s ease-in;
+      font-weight: bold;
+      margin-left:15px;
+}
+
+.side-text {
+      color: #a4b1bd !important;
+      padding-left: 20px;
+}
+
+.icon {
+      margin-left: 10px;
+}
+
+.admin-text {
+      margin: 5px 10px 5px 10px;
+}
+.dropdwon-session-btn{
+      border: none;
+      color: white;
+      background: transparent;
+      margin: 5px 10px 5px 10px;
+}
+
+.dropdown-divider {
+      color: #a4b1bd !important;
+      margin-left: 20px;
+      margin-right: 20px;
+}
+

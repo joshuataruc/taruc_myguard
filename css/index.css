@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	-ms-transition: all .5s ease-in;
+	transition: all .5s ease-in; 
+}
+body{
+	margin: auto;
+	overflow-x: hidden;
+	width: 100%;
+	font-size: 1.2rem;
+	color:#6c757d !important ;
+	font-family: 'Poppins', 'Verdana', 'Times New Roman',  sans-serif;
+
+}
+.container-fluid{
+	width: 100vw !important;
+	margin: auto;
+}
+
+.hero{
+  background-image: url('../image/background2.jpg');
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.myguard-logo{
+  width: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:15vh;
+}
+.hero h2{
+ text-align: center;
+ font-weight: 700;
+ color: #58585a;
+ font-size: 80px;
+ margin-top:35vh;
+/* text-shadow: 2px 4px 3px rgba(0,0,0,0.3);*/
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+.hero h2 span{
+ text-align: center;
+ font-weight: 700;
+ color: #33a6dd;
+}
+.hero-text{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-top:30vh;
+  margin-left: 25vh;
+  color: #fff
+}
+.contact-us{
+  background-image: url('../image/bgwave.jpg');
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  width: 100%;
+  justify-content: space-around;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.contact-img{
+  width: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+video{
+  width: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.contact-us h2{
+  text-align: center;
+  color: #404040;
+}
+.contact-div{
+  margin-top: 5vh;
+}
+.contact-logo{
+  width: 50vh;
+   margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.core-services{
+  text-align: center;
+  margin-top: 30px;
+}
+.icon-text{
+  text-align: center;
+}
+
+.services-icon{
+  width: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.icon-label{
+  text-align: center;
+}
+.services img:hover{
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+ /*-webkit-filter: drop-shadow(5px 5px 5px #333); */
+  filter: drop-shadow(2px 2px 5px #333);
+}
+.whitebg{
+  background-color: #fff;
+}
+.about{
+  background-image: url('../image/wave_ex.jpg');
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  width: 100vw;
+  justify-content: space-around;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.about-title{
+   margin-top: 15vh;
+  text-align: center;
+  font-weight: 600;
+}
+.about-text{
+  text-align: center;
+  font-size: 17px;
+}
+footer{
+  background-color: #929fba;
+  color: #fff;
+  width: 100%;
+
+}
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  text-decoration: none;
+  
+}
+.copyright-container{
+  background-color: #757f95 !important;
+}
+.copyright{
+  color: #fff;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+footer ul li{
+  list-style: none;
+}
+.footer-content-links{
+margin-top: 50px;
+justify-content: center;
+padding-left:50px;
+}
+.footer-content-contacts{
+
+}
+
+.front-btn{
+  background: transparent;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.front-btn:hover{
+  transform: scale(1.01);
+}
+
+
+
+.myButton {
+  box-shadow: 4px 4px 0px 0px #54a3f7;
+  background-color:transparent;
+  border-radius:5px;
+  border:1px solid #fff;
+  display:inline-block;
+  cursor:pointer;
+  color:#58585a;
+  font-size:14px;
+  padding:12px 24px;
+  text-decoration:none;
+  background: none;
+
+}
+.myButton:hover {
+  background-color:#33a6dd;
+  box-shadow: 0px 0px 0px 0px #54a3f7;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}

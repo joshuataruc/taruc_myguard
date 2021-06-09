@@ -1,0 +1,75 @@
+/*.card{
+	background-image: url('../image/card_background.jpg');
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+
+}*/
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+.dashboard-card{
+
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.img-thumbnail{
+	border:none;
+}
+.img-thumbnail{
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+a:hover{
+	text-decoration-line: none;
+	
+}
+a:hover > .card{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card{
+	width: 18rem;
+}

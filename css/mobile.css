@@ -1,0 +1,57 @@
+@media (max-width: 952px){
+	.home-section{
+		padding: 15vh 30px 0px 10px;
+		margin:auto;
+	}
+	.home-logo-pc{
+		width: 300px;
+		padding: 10vh 30px 20px 10px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.catch-title{
+		/*padding: 10vh 0px 0px 10px;*/
+		padding-top: 10vh;
+		margin: auto;
+	}
+	.contact-hero{
+		padding: 10px 13px;
+		margin-bottom: 25px;
+	}
+	p{
+		font-size: 1rem;
+	}
+	.card{
+		height: 100%;
+		width: 100%;
+	}
+	.part-1, .part-2{
+	margin: 20px 20px 50px 20px
+	}
+
+	}/*end 952*/
+	@media(max-width: 858px){
+		p{
+		font-size: 14px;
+		}
+	}
+	/*dont you dare*/
+	@media (max-width: 768px){
+		.home-section{
+			padding-top: 10vh;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+	}
+	/*end 768*/
+
+	@media(min-width: 767px){
+		/*.card{
+			margin-bottom: 100px;
+		}
+		.features-section .card:hover{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}*/
+	}

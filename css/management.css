@@ -1,0 +1,22 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+body{
+  background: #fff;
+}
+
+table{
+  border-radius: 8px;
+  background: #fff;
+  width: 100%;
+  color: #353434;
+  font-size: 25px;
+  text-align: left;
+}
+
+th{
+  background: #353434;
+  color: #16ACD6;
+}
